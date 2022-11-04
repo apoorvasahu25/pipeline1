@@ -4,14 +4,15 @@ pipeline {
         stage('Build') {
             
             steps {
-                echo 'Hello, this is build'
+                sh'echo "Hello, this is build"'
                 
             }
         }
         stage('Test') {
             
             steps {
-                echo 'Hello, this is test'
+                sh'echo "Hello, this is test"'
+                
                 
             }
         }
